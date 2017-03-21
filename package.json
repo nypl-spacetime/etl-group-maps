@@ -1,0 +1,24 @@
+{
+  "name": "spacetime-etl-group-maps",
+  "version": "0.0.1",
+  "description": "Groups Map Warper maps by decade, for use in Maps by Decade",
+  "main": "group-maps.js",
+  "scripts": {
+    "test": "standard",
+    "readme": "spacetime-generate-etl-readme ./ -o README.md"
+  },
+  "author": "Bert Spaan",
+  "license": "MIT",
+  "dependencies": {
+    "highland": "^2.10.2",
+    "spacetime-group-maps": "nypl-spacetime/group-maps"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/nypl-spacetime/etl-group-maps.git"
+  },
+  "devDependencies": {
+    "spacetime-generate-etl-readme": "^0.1.1",
+    "standard": "^6.0.8"
+  }
+}

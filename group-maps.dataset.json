@@ -1,0 +1,11 @@
+{
+  "id": "group-maps",
+  "title": "Map Warper maps, grouped by decade",
+  "license": "CC0",
+  "description": "",
+  "author": "Bert Spaan",
+  "website": "http://spacetime.nypl.org/maps-by-decade",
+  "dependsOn": [
+    "mapwarper.transform"
+  ]
+}
