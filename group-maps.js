@@ -17,7 +17,7 @@ function allGroups (dir) {
 }
 
 function destFilename (dirs, group, stream) {
-  return path.join(dirs.current, `${group.group}.${stream}.geojson`)
+  return path.join(dirs.current, `${group.group}.${stream}.json`)
 }
 
 function writeToFile (dirs, grouped, callback) {

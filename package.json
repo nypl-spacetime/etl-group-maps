@@ -1,11 +1,11 @@
 {
   "name": "spacetime-etl-group-maps",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Groups Map Warper maps by decade, for use in Maps by Decade",
   "main": "group-maps.js",
   "scripts": {
     "test": "standard",
-    "readme": "spacetime-generate-etl-readme ./ -o README.md"
+    "readme": "spacetime-generate-etl-readme -o README.md ./"
   },
   "author": "Bert Spaan",
   "license": "MIT",
