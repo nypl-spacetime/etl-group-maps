@@ -2,10 +2,21 @@
   "id": "group-maps",
   "title": "Map Warper maps, grouped by decade",
   "license": "CC0",
-  "description": "",
-  "author": "Bert Spaan",
-  "website": "http://spacetime.nypl.org/maps-by-decade",
+  "description": "This module selects and groups Map Warper maps by decade and computes geospatial unions of those groups, for use in Maps by Decade",
+  "homepage": "http://spacetime.nypl.org/maps-by-decade",
   "dependsOn": [
     "mapwarper.transform"
+  ],
+  "sources": [
+    {
+      "title": "All datasets in NYC Space/Time Directory",
+      "path": "http://spacetime.nypl.org/#data-mapwarper"
+    }
+  ],
+  "contributors": [
+    {
+      "title": "Bert Spaan",
+      "role": "author"
+    }
   ]
 }

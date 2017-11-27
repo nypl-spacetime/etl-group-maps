@@ -1,6 +1,6 @@
 {
   "name": "spacetime-etl-group-maps",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Groups Map Warper maps by decade, for use in Maps by Decade",
   "main": "group-maps.js",
   "scripts": {
