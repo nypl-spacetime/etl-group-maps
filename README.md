@@ -1,6 +1,11 @@
 # NYC Space/Time Directory ETL module: Map Warper maps, grouped by decade
 
-[ETL](https://en.wikipedia.org/wiki/Extract,_transform,_load) module for NYPL's [NYC Space/Time Direcory](http://spacetime.nypl.org/). This Node.js module downloads, parses, and/or transforms Map Warper maps, grouped by decade data, and creates a NYC Space/Time Directory dataset.
+[ETL](https://en.wikipedia.org/wiki/Extract,_transform,_load) module for NYPL’s [NYC Space/Time Direcory](http://spacetime.nypl.org/). This Node.js module downloads, parses, and/or transforms Map Warper maps, grouped by decade data, and creates a NYC Space/Time Directory dataset.
+
+
+## Data
+
+The dataset created by this ETL module’s `aggregate` step can be found in the [data section of the NYC Space/Time Directory website](http://spacetime.nypl.org/#data-group-maps).
 
 ## Details
 
@@ -18,17 +23,27 @@
 </tr>
 
 <tr>
+<td>Description</td>
+<td>This module selects and groups Map Warper maps by decade and computes geospatial unions of those groups, for use in Maps by Decade</td>
+</tr>
+
+<tr>
 <td>License</td>
 <td>CC0</td>
 </tr>
 
 <tr>
-<td>Author</td>
-<td>Bert Spaan</td>
+<td>Contributors</td>
+<td>Bert Spaan (author)</td>
 </tr>
 
 <tr>
-<td>Website</td>
+<td>Sources</td>
+<td><a href="http://spacetime.nypl.org/#data-mapwarper">Map Warper dataset from NYC Space/Time Directory</a></td>
+</tr>
+
+<tr>
+<td>Homepage</td>
 <td><a href="http://spacetime.nypl.org/maps-by-decade">http://spacetime.nypl.org/maps-by-decade</a></td>
 </tr>
 

@@ -9,7 +9,7 @@
   ],
   "sources": [
     {
-      "title": "All datasets in NYC Space/Time Directory",
+      "title": "Map Warper dataset from NYC Space/Time Directory",
       "path": "http://spacetime.nypl.org/#data-mapwarper"
     }
   ],
